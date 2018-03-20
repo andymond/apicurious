@@ -1,0 +1,31 @@
+<div class="main-application clearfix">
+  <div class="col col-3 center user-prof">
+    <%= image_tag(current_user.image_url, height: 232, width: 232, class: "m3 rounded") %>
+    <%= current_user.name %>
+    <%= current_user.nickname %>
+    <%= current_user.email %>
+  </div>
+  <div class="respositories">
+    pinned repos:
+    <div class="col col-9 clearfix flex flex-wrap justify-center center">
+      <div class="repo border rounded">
+          test
+      </div>
+      <div class="repo border rounded">
+          test
+      </div>
+      <div class="repo border rounded">
+          test
+      </div>
+      <div class="repo border rounded">
+          test
+      </div>
+      <div class="repo border rounded">
+          test
+      </div>
+      <div class="repo border rounded">
+          test
+      </div>
+    </div>
+  </div>
+</div>

@@ -7,8 +7,12 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
   </head>
-
-  <body>
+  <body class="m0">
+    <% if current_user.nil? %>
+      <%= link_to "Log In with GitHub", github_login_path %>
+    <% else %>
+      <%= render partial: "layouts/nav_bar" %>
+    <% end %>
     <%= yield %>
   </body>
 </html>
