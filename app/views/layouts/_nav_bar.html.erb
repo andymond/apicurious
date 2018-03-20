@@ -9,7 +9,7 @@
   </ul>
   <%= octicon "bell", height: 32, version: 2.1 %>
   <summary>
-    <%= octicon "plus", height: 32, version: 2.2 %>
+    <%= octicon "plus", height: 32, version: 1.2 %>
     <%= octicon "triangle-down", height: 32, version: 2.2 %>
     <ul class="list-reset display-none absolute bg-white border">
       <li><a href="#" class="block p1">New Repository</a></li>
@@ -22,15 +22,13 @@
     <%= image_tag("dummy_pic1.jpg", height: '32', width: '32') %>
     <%= octicon "triangle-down", height: 32, version: 2.2 %>
     <ul class="list-reset display-none absolute bg-white border">
-      <li>Signed in as USER</li>
-      <li href="#" class="block p1">Your Profile</li>
-      <li href="#" class="block p1">Your Stars</li>
-      <li href="#" class="block p1">Your Gists</li>
-      <li href="#" class="block p1">Help</li>
-      <li href="#" class="block p1">Settings</li>
-      <li href="#" class="block p1">Sign Out</li>
+      <li>Signed in as <%= current_user.name %></li>
+      <li class="block p1">Your Profile</li>
+      <li class="block p1">Your Stars</li>
+      <li class="block p1">Your Gists</li>
+      <li class="block p1">Help</li>
+      <li class="block p1">Settings</li>
+      <li class="block p1"><%= link_to Sign Out, logout_path, method: :delete %></li>
     </ul>
   </summary>
-
-  <%= link_to "Log In with GitHub", github_login_path %>
 </header>
