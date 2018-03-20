@@ -1,13 +1,21 @@
 class User < ApplicationRecord
 
-  def self.from_omniauth(auth_info)
-    where(uid: auth_info[:uid]).first_or_create do |new_user|
-      new_user.uid  = auth_info.uid
-      new_user.name  = auth_info.name
-      new_user.screenname  = auth_info.screen_name
-      new_user.oauth_token  = auth_info.credentials.token
-      new_user.oauth_token_secret  = auth_info.credentials.secret
-    end
+  def self.parsed_auth_info(auth_info)
+    {uid: auth_info["uid"],
+     name: auth_info["info"]["name"],
+     nickname: auth_info["info"]["nickname"],
+     email: auth_info["info"]["email"],
+     image_url: auth_info["info"]["image"],
+     oauth_token: auth_info["info"]["credentials"]}
   end
 
+  def self.from_omniauth(auth_info)
+    user_info = parsed_auth_info(auth_info)
+    if user = User.find_by(uid: user_info[:uid])
+      user.update(user_info)
+      User.find(user.id)
+    else
+      User.create(user_info)
+    end
+  end
 end
