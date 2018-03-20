@@ -9,4 +9,5 @@ class User < ApplicationRecord
       new_user.oauth_token_secret  = auth_info.credentials.secret
     end
   end
+
 end
