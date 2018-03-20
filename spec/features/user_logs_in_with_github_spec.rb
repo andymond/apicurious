@@ -10,7 +10,7 @@ def stub_omniauth
      "email"=>"andy.dymond@gmail.com",
      "name"=>"Andy Dymond",
      "image"=>"https://avatars2.githubusercontent.com/u/30162156?v=4",
-   "credentials"=>{"token"=>"abcdefhijklmnopqrstuvwxyz1234567890", "expires"=>false}
+     "credentials"=>{"token"=>"abcdefhijklmnopqrstuvwxyz1234567890", "expires"=>false}
     }
   })
 end
@@ -25,6 +25,5 @@ feature  "user logs in" do
     expect(page).to have_content(stub_omniauth["info"]["name"])
     expect(page).to have_content(stub_omniauth["info"]["nickname"])
     expect(page).to have_content(stub_omniauth["info"]["email"])
-    expect(page).to have_content(stub_omniauth["info"]["image"])
   end
 end
