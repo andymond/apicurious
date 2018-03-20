@@ -21,9 +21,21 @@ a {
 }
 
 .main-application {
+  margin-top: 20px;
   min-height: 80vh;
 }
 
 .user-prof {
   min-height: 50vh;
+}
+
+.repositories {
+  min-height: 450.6px;
+}
+
+.repo {
+  height: 134px;
+  width: 47%;
+  margin: 10px;
+  border-color: gray;
 }
