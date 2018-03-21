@@ -1,16 +1,25 @@
-<header class="flex border-box navbar items-center justify-around" style="height: 56px;">
-  <%= octicon "mark-github", height: 32, version: 2.2, class: "octocat" %>
-  <input class="m2 rounded border-none" type="text" placeholder="Search GitHub">
+<div class="nav-background">
+<header class="flex border-box navbar items-center justify-between p1" style="height: 56px;">
+
+<div class="flex items-center">
+  <%= octicon "mark-github", height: 32, class: "octocat" %>
+
+  <input class="m2 pl1 rounded border-none" type="text" placeholder="Search GitHub">
   <ul class="list-reset flex">
-    <li class="inline-block mr1"><a href="#">Pull Requests</a></li>
-    <li class="inline-block mr1"><a href="#">Issues</a></li>
-    <li class="inline-block mr1"><a href="#">Marketplace</a></li>
-    <li class="inline-block mr1"><a href="#">Explore</a></li>
+    <a class="p1" href="#">Pull Requests</a>
+    <a class="p1" href="#">Issues</a>
+    <a class="p1" href="#">Marketplace</a>
+    <a class="p1" href="#">Explore</a>
   </ul>
-  <%= octicon "bell", height: 32, version: 2.1 %>
-  <summary>
-    <%= octicon "plus", height: 32, version: 1.2 %>
-    <%= octicon "triangle-down", height: 32, version: 2.2 %>
+</div>
+
+<div class="flex items-center">
+  <%= octicon "bell", height: 16, class: "m2" %>
+
+  <summary class="flex items-center">
+    <%= octicon "plus", height: 16, class: "xs-right-pad" %>
+    <%= octicon "triangle-down", height: 12, class:
+    "xs-right-pad" %>
     <ul class="list-reset display-none absolute bg-white border">
       <li><a href="#" class="block p1">New Repository</a></li>
       <li><a href="#" class="block p1">Import Repository</a></li>
@@ -18,11 +27,12 @@
       <li><a href="#" class="block p1">New Organization</a></li>
     </ul>
   </summary>
-  <summary>
+
+  <summary class="flex items-center">
     <% unless current_user.image_url.nil? %>
-    <%= image_tag(current_user.image_url, height: 30, width: 30, class: "rounded") %>
+    <%= image_tag(current_user.image_url, height: 20, width: 20, class: "rounded pl1 xs-right-pad") %>
     <% end %>
-    <%= octicon "triangle-down", height: 32, version: 2.2 %>
+    <%= octicon "triangle-down", height: 12 %>
     <ul class="list-reset display-none absolute bg-white border">
       <li>Signed in as <%= current_user.name %></li>
       <li class="block p1">Your Profile</li>
@@ -33,4 +43,6 @@
       <li class="block p1"><%= link_to "Sign Out", logout_path, method: :delete %></li>
     </ul>
   </summary>
+</div>
 </header>
+</div>
