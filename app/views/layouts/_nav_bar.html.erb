@@ -1,5 +1,5 @@
 <header class="flex border-box navbar items-center justify-around" style="height: 56px;">
-  <%= octicon "mark-github", height: 32, version: 2.2 %>
+  <%= octicon "mark-github", height: 32, version: 2.2, class: "octocat" %>
   <input class="m2 rounded border-none" type="text" placeholder="Search GitHub">
   <ul class="list-reset flex">
     <li class="inline-block mr1"><a href="#">Pull Requests</a></li>
@@ -19,7 +19,9 @@
     </ul>
   </summary>
   <summary>
-    <%= image_tag("dummy_pic1.jpg", height: '32', width: '32') %>
+    <% unless current_user.image_url.nil? %>
+    <%= image_tag(current_user.image_url, height: 30, width: 30, class: "rounded") %>
+    <% end %>
     <%= octicon "triangle-down", height: 32, version: 2.2 %>
     <ul class="list-reset display-none absolute bg-white border">
       <li>Signed in as <%= current_user.name %></li>
