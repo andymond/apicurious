@@ -1,9 +1,10 @@
 class DashboardController < ApplicationController
 
   def index
-    user_response = Faraday.get("https://api.github.com/user?access_token=#{current_user.oauth_token}")
-    stars_response = Faraday.get("https://api.github.com/user/starred?access_token=#{current_user.oauth_token}")
-    @user = GithubUser.new(user_response.body, stars_response.body)
+    github_service = GithubService.new(current_user)
+    user_info = github_service.user_info
+    stars = github_service.user_stars
+    @user = GithubUser.new(user_info, stars)
   end
 
 end

@@ -7,9 +7,9 @@ class GithubUser
               :followers,
               :following
 
-  def initialize(user_info, user_stars = nil)
-    @attributes = JSON.parse(user_info, symbolize_names: true)
-    @stars = JSON.parse(user_stars, symbolize_names: true)
+  def initialize(attributes, stars)
+    @attributes = attributes
+    @stars = stars
     @location = attributes[:location]
     @bio = attributes[:bio]
     @repos = attributes[:public_repos]
