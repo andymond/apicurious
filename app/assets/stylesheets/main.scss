@@ -7,39 +7,88 @@ a {
 }
 
 .octicon {
-  fill: rgba(255,255,255,0.75);
+  fill: #FFFFFFBF;
+}
+
+.octicon-location, .octicon-mail {
+  fill: #6a737d;
 }
 
 .octocat {
   fill: white;
 }
 
+.nav-background {
+  background-color: #24292e;
+}
+
 .navbar {
-  a { color: white; }
-  background-color: black;
+  width: 1012px;
+  margin: 0 auto;
+  a {
+    color: #FFFFFFBF;
+    font-size: 14px;
+    font-weight: 600;
+  }
   input {
-    background-color: gray;
+    background-color: #FFFFFF1C;
+    font-size: 16px;
     width: 300px;
-    height: 32px;
+    min-height: 32px;
   }
 }
 
+.xs-right-pad {
+  padding-right: 4px;
+}
 .main-application {
-  margin-top: 20px;
+  width: 1012px;
+  margin: 25px auto;
   min-height: 80vh;
 }
 
 .user-prof {
   min-height: 50vh;
+  .user-pic {
+    border-radius: 5px 5px 2px 2px;
+  }
+  .name {
+    font-weight: 600;
+  }
+  .nickname {
+    font-weight: 300;
+    color: #6a737d;
+  }
+  .bio {
+    font-size: 14px;
+    color: #6a737d;
+  }
+  .user-details {
+    font-size: 14px;
+    border-top: 1px #0000001A solid;
+    a {color: #0366d6}
+  }
 }
 
-.repositories {
-  min-height: 450.6px;
+.profile-tabs {
+  width: 551px;
+  display: flex;
+  justify-content: space-around;
+  p {
+    font-size: 14px;
+    strong {
+      font-size: 12px;
+      color: #6a737d;
+      background-color: rgba(27,31,35,0.08);
+      padding: 2px 5px;
+      border-radius: 20px;
+    }
+  }
 }
 
 .repo {
   height: 134px;
-  width: 47%;
+  width: 350px;
   margin: 10px;
-  border-color: gray;
+  border-color: #0000002A;
 }

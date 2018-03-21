@@ -1,46 +1,54 @@
 <div class="main-application clearfix">
-  <div class="col col-3 center user-prof ml2">
+  <div class="col col-3 left user-prof pr2">
     <% unless current_user.image_url.nil? %>
-    <%= image_tag(current_user.image_url, height: 232, width: 232, class: "m3 rounded") %>
+    <%= image_tag(current_user.image_url, height: 232, width: 232, class: "user-pic") %>
     <% end %>
-    <h2><%= current_user.name %></h2>
-    <p><%= current_user.nickname %></p>
-    <p><%= @user.bio %></p>
-    <div class="border-top">
-      <p><%= @user.location %></p>
-      <p><%= current_user.email %></p>
+    <div class="h3 name"><%= current_user.name %></div>
+    <div class="nickname"><%= current_user.nickname %></div>
+    <p class="bio"><%= @user.bio %></p>
+    <div class="user-details pt2">
+      <div class="flex items-center">
+        <%= octicon "location", height: 16, class: "m1" %>
+        <%= @user.location %>
+      </div>
+      <div class="flex items-center">
+        <%= octicon "mail", height: 16, class: "m1" %>
+        <%= mail_to(current_user.email) %>
+      </div>
     </div>
   </div>
-  <div class="respositories">
-    <div class="profile-tabs">
-      <p class="inline-block">Pinned repos:</p>
-      <p class="inline-block">Repositories <%= @user.repos %></p>
-      <p class="inline-block">Stars <%= @user.stars.count %></p>
-      <p class="inline-block">Followers <%= @user.followers %></p>
-      <p class="inline-block">Following <%= @user.following %> </p>
-    </div>
-    <div class="col col-8 clearfix flex flex-wrap justify-center center border-top">
-      <div class="repo border rounded">
-          test
-      </div>
-      <div class="repo border rounded">
-          test
-      </div>
-      <div class="repo border rounded">
-          test
-      </div>
-      <div class="repo border rounded">
-          test
-      </div>
-      <div class="repo border rounded">
-          test
-      </div>
-      <div class="repo border rounded">
-          test
-      </div>
-    </div>
-    <div class="col-1">
 
+  <div class="col col-9 pl1">
+    <div class="">
+      <nav class="profile-tabs">
+        <p class="inline-block">Overview</p>
+        <p class="inline-block">Repositories <strong><%= @user.repo_count %></strong></p>
+        <p class="inline-block">Stars <strong><%= @user.stars.count %></strong></p>
+        <p class="inline-block">Followers <strong><%= @user.follower_count %></strong></p>
+        <p class="inline-block">Following <strong><%= @user.following_count %></strong></p>
+      </nav>
     </div>
+
+    <div class="flex flex-wrap justify-center center border-top">
+      <div class="repo border rounded">
+          <%= octicon "octicon-grabber", height: 16 %>test
+      </div>
+      <div class="repo border rounded">
+          <%= octicon "octicon-grabber", height: 16 %> test
+      </div>
+      <div class="repo border rounded">
+          <%= octicon "octicon-grabber", height: 16 %> test
+      </div>
+      <div class="repo border rounded">
+          <%= octicon "octicon-grabber", height: 16 %> test
+      </div>
+      <div class="repo border rounded">
+          <%= octicon "octicon-grabber", height: 16 %> test
+      </div>
+      <div class="repo border rounded">
+          <%= octicon "octicon-grabber", height: 16 %> test
+      </div>
+    </div>
+  </div>
   </div>
 </div>
