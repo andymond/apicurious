@@ -218,6 +218,7 @@ DEPENDENCIES
   byebug
   capybara
   coffee-rails (~> 4.2)
+  faraday
   figaro
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)

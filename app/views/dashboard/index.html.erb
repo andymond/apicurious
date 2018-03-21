@@ -1,13 +1,25 @@
 <div class="main-application clearfix">
-  <div class="col col-3 center user-prof">
+  <div class="col col-3 center user-prof ml2">
+    <% unless current_user.image_url.nil? %>
     <%= image_tag(current_user.image_url, height: 232, width: 232, class: "m3 rounded") %>
-    <%= current_user.name %>
-    <%= current_user.nickname %>
-    <%= current_user.email %>
+    <% end %>
+    <h2><%= current_user.name %></h2>
+    <p><%= current_user.nickname %></p>
+    <p><%= @user.bio %></p>
+    <div class="border-top">
+      <p><%= @user.location %></p>
+      <p><%= current_user.email %></p>
+    </div>
   </div>
   <div class="respositories">
-    pinned repos:
-    <div class="col col-9 clearfix flex flex-wrap justify-center center">
+    <div class="profile-tabs">
+      <p class="inline-block">Pinned repos:</p>
+      <p class="inline-block">Repositories <%= @user.repos %></p>
+      <p class="inline-block">Stars <%= @user.stars.count %></p>
+      <p class="inline-block">Followers <%= @user.followers %></p>
+      <p class="inline-block">Following <%= @user.following %> </p>
+    </div>
+    <div class="col col-8 clearfix flex flex-wrap justify-center center border-top">
       <div class="repo border rounded">
           test
       </div>
@@ -26,6 +38,9 @@
       <div class="repo border rounded">
           test
       </div>
+    </div>
+    <div class="col-1">
+
     </div>
   </div>
 </div>

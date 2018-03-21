@@ -10,7 +10,8 @@ def stub_omniauth
      "email"=>"andy.dymond@gmail.com",
      "name"=>"Andy Dymond",
      "image"=>"https://avatars2.githubusercontent.com/u/30162156?v=4",
-     "credentials"=>{"token"=>"abcdefhijklmnopqrstuvwxyz1234567890", "expires"=>false}
+   },
+   "credentials"=>{"token"=>"abcdefhijklmnopqrstuvwxyz1234567890", "expires"=>false
     }
   })
 end

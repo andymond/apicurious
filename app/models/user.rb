@@ -6,7 +6,7 @@ class User < ApplicationRecord
      nickname: auth_info["info"]["nickname"],
      email: auth_info["info"]["email"],
      image_url: auth_info["info"]["image"],
-     oauth_token: auth_info["info"]["credentials"]}
+     oauth_token: auth_info["credentials"]["token"]}
   end
 
   def self.from_omniauth(auth_info)
