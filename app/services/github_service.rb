@@ -14,7 +14,7 @@ class GithubService
   end
 
   def user_repos
-    get_json("/users/#{@current_user.nickname}/repos")
+    get_json("/users/#{@current_user.nickname}/repos?access_token=#{@current_user.oauth_token}&sort=pushed")
   end
 
   private

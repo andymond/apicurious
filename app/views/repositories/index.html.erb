@@ -1,0 +1,7 @@
+<div>
+  <% @user.repos.each do |repo| %>
+    <%= link_to repo.name, "#" %>
+  <% end %>
+</div>
+
+<%= link_to "2", "#" %>

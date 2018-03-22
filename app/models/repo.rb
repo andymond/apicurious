@@ -1,7 +1,14 @@
 class Repo
 
-  def initialize
-
+  def initialize(attributes)
+    @attributes = attributes
   end
-  
+
+  def name
+    attributes[:name]
+  end
+
+  private
+    attr_reader :attributes
+
 end

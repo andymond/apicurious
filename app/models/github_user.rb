@@ -30,7 +30,7 @@ class GithubUser
 
   def repos
     @gh_service.user_repos.map do |repo|
-      Repo.new
+      Repo.new(repo)
     end
   end
 
