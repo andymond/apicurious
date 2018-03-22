@@ -5,6 +5,14 @@ require File.expand_path('../../config/environment', __FILE__)
 # Prevent database truncation if the environment is production
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'rspec/rails'
+require 'webmock/rspec'
+
+def stub_get(filename, url)
+  json_response = File.read("./spec/fixtures/#{filename}")
+  stub_request(:get, url)
+    .to_return(status: 200, body: "#{json_response}", headers: {})
+end
+
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
