@@ -10,4 +10,7 @@ class GithubEventService
     get_json("users/#{@user.nickname}/events?access_token=#{@user.oauth_token}")
   end
 
+  def get_commits(url)
+    get_json("#{url}?access_token=#{@user.oauth_token}")
+  end
 end

@@ -18,4 +18,13 @@ describe GithubEventService do
       expect(user_events.first).to have_key(:created_at)
     end
   end
+
+  it "returns commits for specific event" do
+    VCR.use_cassette("commit_info") do
+      url = service.user_events.first[:payload][:pull_request][:commits_url]
+      commits = service.get_commits(url)
+
+      expect(commits).to be_an(Array)
+    end
+  end
 end
