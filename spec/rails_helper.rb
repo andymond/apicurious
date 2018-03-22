@@ -7,10 +7,9 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 require 'rspec/rails'
 require 'webmock/rspec'
 
-def stub_get(filename, url, token = ENV["GITHUB_ACCESS_TOKEN"])
-  json_response = File.open("./spec/fixtures/#{filename}")
+def stub_get(filename, url)
+  json_response = File.read("./spec/fixtures/#{filename}")
   stub_request(:get, url)
-    .with(headers: { "Authorization" =>"token #{token}" })
     .to_return(status: 200, body: "#{json_response}", headers: {})
 end
 # Add additional requires below this line. Rails is not loaded until this point!
