@@ -2,7 +2,7 @@ require "rails_helper"
 
 describe GithubEventService do
   let(:user) { double(oauth_token: ENV['GITHUB_ACCESS_TOKEN'], nickname: "andymond") }
-  let(:service) { GithubEventService.new(user, 1) }
+  let(:service) { GithubEventService.new(user) }
 
   it "returns json of recent user activity" do
     VCR.use_cassette("event_info") do
