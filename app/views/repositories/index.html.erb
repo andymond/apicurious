@@ -4,4 +4,11 @@
   <% end %>
 </div>
 
-<%= link_to "2", "#" %>
+<% unless @user.page == 1 %>
+<%= link_to "previous", repositories_path(page: @user.page - 1) %>
+<% end %>
+<%= link_to @user.page, repositories_path(page: @user.page) %>
+<%= link_to @user.page + 1, repositories_path(page: @user.page + 1) %>
+<% unless @user.repos.count != 30 %>
+<%= link_to "next", repositories_path(page: @user.page + 1) %>
+<% end %>

@@ -1,7 +1,10 @@
 class GithubUser
+  attr_reader :page
 
-  def initialize(user)
+  def initialize(user, page = 1)
     @gh_service = GithubService.new(user)
+    @user = user
+    @page = page.to_i
   end
 
   def location
@@ -29,17 +32,17 @@ class GithubUser
   end
 
   def repos
-    @gh_service.user_repos.map do |repo|
+    GithubRepoService.new(user, page).user_repos.map do |repo|
       Repo.new(repo)
     end
   end
 
-
   private
-    attr_reader :attributes, :gh_service
+    attr_reader :attributes, :gh_service, :user
 
     def attributes
       @attributes ||= gh_service.user_info
     end
+
 
 end
