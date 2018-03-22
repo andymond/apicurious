@@ -12,6 +12,7 @@ def stub_get(filename, url)
   stub_request(:get, url)
     .to_return(status: 200, body: "#{json_response}", headers: {})
 end
+
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
