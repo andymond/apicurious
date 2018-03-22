@@ -1,4 +1,5 @@
 class GithubService
+  include ServiceHelpers
 
   def initialize(current_user)
     @conn = Faraday.new(url: "https://api.github.com")
@@ -12,12 +13,5 @@ class GithubService
   def user_stars
     get_json("/user/starred?access_token=#{@current_user.oauth_token}")
   end
-
-  private
-
-    def get_json(url)
-      response = @conn.get(url)
-      JSON.parse(response.body, symbolize_names: true)
-    end
 
 end
