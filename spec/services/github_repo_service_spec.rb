@@ -9,6 +9,7 @@ describe GithubRepoService do
       repos = service.user_repos
 
       expect(repos).to be_an(Array)
+      expect(repos.count).to eq(30)
       expect(repos.first[:name]).to eq("apicurious")
       expect(repos.first[:owner][:login]).to eq("andymond")
     end
