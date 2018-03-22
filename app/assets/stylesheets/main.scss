@@ -10,7 +10,7 @@ a {
   fill: #FFFFFFBF;
 }
 
-.octicon-location, .octicon-mail {
+.octicon-location, .octicon-mail, .octicon-grabber {
   fill: #6a737d;
 }
 
@@ -76,6 +76,7 @@ a {
   justify-content: space-around;
   p {
     font-size: 14px;
+    a {color: black}
     strong {
       font-size: 12px;
       color: #6a737d;

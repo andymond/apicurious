@@ -28,6 +28,12 @@ class GithubUser
     @gh_service.user_stars
   end
 
+  def repos
+    @gh_service.user_repos.map do |repo|
+      Repo.new
+    end
+  end
+
 
   private
     attr_reader :attributes, :gh_service

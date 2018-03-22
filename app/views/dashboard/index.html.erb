@@ -22,31 +22,31 @@
     <div class="">
       <nav class="profile-tabs">
         <p class="inline-block">Overview</p>
-        <p class="inline-block">Repositories <strong><%= @user.repo_count %></strong></p>
+        <p class="inline-block"> <%= link_to "Repositories", repositories_path %> <strong><%= @user.repo_count %></strong></p>
         <p class="inline-block">Stars <strong><%= @user.stars.count %></strong></p>
         <p class="inline-block">Followers <strong><%= @user.follower_count %></strong></p>
         <p class="inline-block">Following <strong><%= @user.following_count %></strong></p>
       </nav>
     </div>
 
-    <div class="flex flex-wrap justify-center center border-top">
+    <div class="flex flex-wrap justify-center border-top">
       <div class="repo border rounded">
-          <%= octicon "octicon-grabber", height: 16 %>test
+          <%= octicon "grabber", height: 16 %>test
       </div>
       <div class="repo border rounded">
-          <%= octicon "octicon-grabber", height: 16 %> test
+          <%= octicon "grabber", height: 16 %> <%= @user.repos.first %>
       </div>
       <div class="repo border rounded">
-          <%= octicon "octicon-grabber", height: 16 %> test
+          <%= octicon "grabber", height: 16 %> test
       </div>
       <div class="repo border rounded">
-          <%= octicon "octicon-grabber", height: 16 %> test
+          <%= octicon "grabber", height: 16 %> test
       </div>
       <div class="repo border rounded">
-          <%= octicon "octicon-grabber", height: 16 %> test
+          <%= octicon "grabber", height: 16 %> test
       </div>
       <div class="repo border rounded">
-          <%= octicon "octicon-grabber", height: 16 %> test
+          <%= octicon "grabber", height: 16 %> test
       </div>
     </div>
   </div>
