@@ -13,6 +13,10 @@ class GithubService
     get_json("/user/starred?access_token=#{@current_user.oauth_token}")
   end
 
+  def user_repos
+    get_json("/users/#{@current_user.nickname}/repos")
+  end
+
   private
 
     def get_json(url)
