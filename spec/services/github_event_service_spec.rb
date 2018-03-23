@@ -22,7 +22,7 @@ describe GithubEventService do
   it "returns commits for specific event" do
     VCR.use_cassette("commit_info") do
       url = service.user_events.first[:payload][:pull_request][:commits_url]
-      commits = service.get_commits(url)
+      commits = service.get_pr_commits(url)
 
       expect(commits).to be_an(Array)
     end

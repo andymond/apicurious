@@ -25,8 +25,11 @@ feature  "user logs in" do
     stub_omniauth
     user_url = "https://api.github.com/user?access_token=#{fake_token}"
     starred_url = "https://api.github.com/user/starred?access_token=#{fake_token}"
+    event_url = "https://api.github.com/users/andymond/events?access_token=#{fake_token}"
+
     stub_get("user_info.json", user_url)
     stub_get("user_info.json", starred_url)
+    stub_get("event_info.json", event_url)
 
     visit root_path
     click_on "Log in with GitHub"

@@ -12,14 +12,5 @@ describe Event do
         expect(event.month).to eq("March 2018")
       end
     end
-
-    it "returns its commits" do
-      VCR.use_cassette("commit_info") do
-        service = GithubEventService.new(user)
-        event = Event.new(user, service.user_events.first)
-
-        expect(event.commits.count).to eq(3)
-      end
-    end
   end
 end

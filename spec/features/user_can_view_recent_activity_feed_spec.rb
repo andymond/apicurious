@@ -18,7 +18,7 @@ describe "User can view recent activity feed" do
 
       expect(page).to have_content("Contribution Activity")
       expect(page).to have_content("March 2018")
-      expect(page).to have_content("Created 206 Commits in 4 Repositories")
+      expect(page).to have_content("Created 54 commits in andymond/apicurious")
     end
   end
 end

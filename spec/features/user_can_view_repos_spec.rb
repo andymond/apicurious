@@ -6,15 +6,14 @@ feature "user visits dashboard" do
     user_url = "https://api.github.com/user?access_token=#{user.oauth_token}"
     starred_url = "https://api.github.com/user/starred?access_token=#{user.oauth_token}"
     repos_url = "https://api.github.com/users/#{user.nickname}/repos?access_token=#{user.oauth_token}&sort=pushed&page=1"
-
+    
     stub_get("user_info.json", user_url)
     stub_get("starred_info.json", starred_url)
     stub_get("repos_info.json", repos_url)
 
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 
-    visit dashboard_index_path
-    click_on "Repositories"
+    visit repositories_path
 
     expect(page).to have_content("rails_engine")
     expect(page).to have_content("menu_manager")

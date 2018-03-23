@@ -1,6 +1,6 @@
 class Event
 
-  def initialize(user, attributes)
+  def initialize(user = nil, attributes)
     @user = user
     @attributes = attributes
   end
@@ -12,8 +12,15 @@ class Event
   end
 
   def commits
-    url = attributes[:payload][:pull_request][:commits_url]
-    GithubEventService.new(user).get_commits(url)
+    attributes[:payload][:commits]
+  end
+
+  def commit_count
+    attributes[:payload][:commits].count
+  end
+
+  def repo
+    attributes[:repo][:name]
   end
 
   private

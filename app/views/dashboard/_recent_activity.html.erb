@@ -1,3 +1,5 @@
 <div class="recent activity">
  Contribution Activity
+ <%= @user.events.first.month %>
+ Created <%= @user.commits_by_repo.values.first %> commits in <%= @user.commits_by_repo.keys.first %>
 </div>

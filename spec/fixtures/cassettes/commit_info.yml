@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 22 Mar 2018 21:21:52 GMT
+      - Fri, 23 Mar 2018 00:44:45 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4996'
+      - '4976'
       X-Ratelimit-Reset:
-      - '1521756353'
+      - '1521766675'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -74,9 +74,9 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.271412'
+      - '0.229146'
       X-Github-Request-Id:
-      - DED8:4BEB:1386DC3:2CAB36A:5AB41E70
+      - E0C6:4BED:1AC757A:3A3E81F:5AB44DFC
     body:
       encoding: ASCII-8BIT
       string: '[{"id":"7420941251","type":"PullRequestEvent","actor":{"id":30162156,"login":"andymond","display_login":"andymond","gravatar_id":"","url":"https://api.github.com/users/andymond","avatar_url":"https://avatars.githubusercontent.com/u/30162156?"},"repo":{"id":126070442,"name":"andymond/apicurious","url":"https://api.github.com/repos/andymond/apicurious"},"payload":{"action":"closed","number":6,"pull_request":{"url":"https://api.github.com/repos/andymond/apicurious/pulls/6","id":176863151,"html_url":"https://github.com/andymond/apicurious/pull/6","diff_url":"https://github.com/andymond/apicurious/pull/6.diff","patch_url":"https://github.com/andymond/apicurious/pull/6.patch","issue_url":"https://api.github.com/repos/andymond/apicurious/issues/6","number":6,"state":"closed","locked":false,"title":"Service
@@ -214,7 +214,7 @@ http_interactions:
         helper method","distinct":true,"url":"https://api.github.com/repos/andymond/apicurious/commits/94034bf6511097cd08e94643e3b2e54092108730"}]},"public":true,"created_at":"2018-03-20T22:53:29Z"},{"id":"7408827263","type":"CreateEvent","actor":{"id":30162156,"login":"andymond","display_login":"andymond","gravatar_id":"","url":"https://api.github.com/users/andymond","avatar_url":"https://avatars.githubusercontent.com/u/30162156?"},"repo":{"id":126070442,"name":"andymond/apicurious","url":"https://api.github.com/repos/andymond/apicurious"},"payload":{"ref":"landing-scaffolding","ref_type":"branch","master_branch":"master","description":"Api
         consumption exercise in Rails","pusher_type":"user"},"public":true,"created_at":"2018-03-20T19:20:37Z"}]'
     http_version: 
-  recorded_at: Thu, 22 Mar 2018 21:21:52 GMT
+  recorded_at: Fri, 23 Mar 2018 00:44:44 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/andymond/apicurious/pulls/6/commits?access_token=76917f91134b1c487c714c69953da17697e6bed6
@@ -236,7 +236,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 22 Mar 2018 21:21:53 GMT
+      - Fri, 23 Mar 2018 00:44:45 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -246,9 +246,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4995'
+      - '4975'
       X-Ratelimit-Reset:
-      - '1521756353'
+      - '1521766675'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -283,9 +283,9 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.081799'
+      - '0.075190'
       X-Github-Request-Id:
-      - DED9:4BF3:1A37B8C:3C4B593:5AB41E70
+      - E0C7:4BEB:14390CD:2E2A67B:5AB44DFD
     body:
       encoding: ASCII-8BIT
       string: '[{"sha":"334763cec8e3b7c79ee472d27c7590e58a15de00","commit":{"author":{"name":"Andrew
@@ -299,5 +299,5 @@ http_interactions:
         Dymond","email":"andy.dymond@gmail.com","date":"2018-03-22T18:00:22Z"},"message":"Add
         github_repo_service_spec","tree":{"sha":"8927b4f3b3f2756ed40da18b81d72d4cafe1275a","url":"https://api.github.com/repos/andymond/apicurious/git/trees/8927b4f3b3f2756ed40da18b81d72d4cafe1275a"},"url":"https://api.github.com/repos/andymond/apicurious/git/commits/3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/andymond/apicurious/commits/3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b","html_url":"https://github.com/andymond/apicurious/commit/3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b","comments_url":"https://api.github.com/repos/andymond/apicurious/commits/3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b/comments","author":{"login":"andymond","id":30162156,"avatar_url":"https://avatars2.githubusercontent.com/u/30162156?v=4","gravatar_id":"","url":"https://api.github.com/users/andymond","html_url":"https://github.com/andymond","followers_url":"https://api.github.com/users/andymond/followers","following_url":"https://api.github.com/users/andymond/following{/other_user}","gists_url":"https://api.github.com/users/andymond/gists{/gist_id}","starred_url":"https://api.github.com/users/andymond/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andymond/subscriptions","organizations_url":"https://api.github.com/users/andymond/orgs","repos_url":"https://api.github.com/users/andymond/repos","events_url":"https://api.github.com/users/andymond/events{/privacy}","received_events_url":"https://api.github.com/users/andymond/received_events","type":"User","site_admin":false},"committer":{"login":"andymond","id":30162156,"avatar_url":"https://avatars2.githubusercontent.com/u/30162156?v=4","gravatar_id":"","url":"https://api.github.com/users/andymond","html_url":"https://github.com/andymond","followers_url":"https://api.github.com/users/andymond/followers","following_url":"https://api.github.com/users/andymond/following{/other_user}","gists_url":"https://api.github.com/users/andymond/gists{/gist_id}","starred_url":"https://api.github.com/users/andymond/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andymond/subscriptions","organizations_url":"https://api.github.com/users/andymond/orgs","repos_url":"https://api.github.com/users/andymond/repos","events_url":"https://api.github.com/users/andymond/events{/privacy}","received_events_url":"https://api.github.com/users/andymond/received_events","type":"User","site_admin":false},"parents":[{"sha":"09bb08aa12734d7f25680fb3d63ba523291c3a5b","url":"https://api.github.com/repos/andymond/apicurious/commits/09bb08aa12734d7f25680fb3d63ba523291c3a5b","html_url":"https://github.com/andymond/apicurious/commit/09bb08aa12734d7f25680fb3d63ba523291c3a5b"}]}]'
     http_version: 
-  recorded_at: Thu, 22 Mar 2018 21:21:53 GMT
+  recorded_at: Fri, 23 Mar 2018 00:44:44 GMT
 recorded_with: VCR 4.0.0
