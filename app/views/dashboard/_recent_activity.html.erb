@@ -6,4 +6,12 @@
      Created <%= c %> commits in <%= r %>
    </div>
  <% end %>
+
+ <% @user.events.each do |event| %>
+     <% event.commits.each do |commit| %>
+     <div class="event-commits">
+       <%= commit[:message] %>
+     </div>
+     <% end %>
+ <% end %>
 </div>
