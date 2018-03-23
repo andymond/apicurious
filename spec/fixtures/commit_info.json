@@ -1,0 +1,2307 @@
+[
+    {
+        "sha": "8785454023ee4486710c8a7947bf999f0b58aded",
+        "commit": {
+            "author": {
+                "name": "Andy Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T18:01:45Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2018-03-22T18:01:45Z"
+            },
+            "message": "Merge pull request #6 from andymond/service-tests\n\nService tests",
+            "tree": {
+                "sha": "8927b4f3b3f2756ed40da18b81d72d4cafe1275a",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/8927b4f3b3f2756ed40da18b81d72d4cafe1275a"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/8785454023ee4486710c8a7947bf999f0b58aded",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJas++JCRBK7hj4Ov3rIwAAdHIIACI8dDy3p+987AweuUVeT3v5\nBl8LPAC3loM/2NgLciPLLdO+kfRBbcasgQnYFLSWpiUbydkgi/UmxxKDEB4XMFiM\nZHdqohLk35NOeorcngGvPayR8dfaXrhRThVzxU2yG/OCIpeyGXPLrDTClBzyFjZ2\nMxlN825NhR2kFphlSCe8ls7LFDkoSOp2U0XA4FwUapAtBIoRSRfWA2Kj4P1/1oU4\nASoTExIgHgvu5vJajDOzd+JJ717loluJeB/pw1qpUylW6yb0hI2PywqfLtEQrEtJ\n1plWto387YJvC8emDCpETlnYg+wmmT2jcMXmIcWsbdySGMNFADKqY794hpFkIyo=\n=4nSj\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 8927b4f3b3f2756ed40da18b81d72d4cafe1275a\nparent 8683a43e87abb1fe44334dc7b4f9d45556d77194\nparent 3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b\nauthor Andy Dymond <andy.dymond@gmail.com> 1521741705 -0600\ncommitter GitHub <noreply@github.com> 1521741705 -0600\n\nMerge pull request #6 from andymond/service-tests\n\nService tests"
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/8785454023ee4486710c8a7947bf999f0b58aded",
+        "html_url": "https://github.com/andymond/apicurious/commit/8785454023ee4486710c8a7947bf999f0b58aded",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/8785454023ee4486710c8a7947bf999f0b58aded/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8683a43e87abb1fe44334dc7b4f9d45556d77194",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/8683a43e87abb1fe44334dc7b4f9d45556d77194",
+                "html_url": "https://github.com/andymond/apicurious/commit/8683a43e87abb1fe44334dc7b4f9d45556d77194"
+            },
+            {
+                "sha": "3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b",
+                "html_url": "https://github.com/andymond/apicurious/commit/3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b"
+            }
+        ]
+    },
+    {
+        "sha": "3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T18:00:22Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T18:00:22Z"
+            },
+            "message": "Add github_repo_service_spec",
+            "tree": {
+                "sha": "8927b4f3b3f2756ed40da18b81d72d4cafe1275a",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/8927b4f3b3f2756ed40da18b81d72d4cafe1275a"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b",
+        "html_url": "https://github.com/andymond/apicurious/commit/3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/3bbca6a07aaeab8d26ff308a0a86c4adc69cc67b/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "09bb08aa12734d7f25680fb3d63ba523291c3a5b",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/09bb08aa12734d7f25680fb3d63ba523291c3a5b",
+                "html_url": "https://github.com/andymond/apicurious/commit/09bb08aa12734d7f25680fb3d63ba523291c3a5b"
+            }
+        ]
+    },
+    {
+        "sha": "09bb08aa12734d7f25680fb3d63ba523291c3a5b",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T17:41:33Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T17:41:33Z"
+            },
+            "message": "Add github_service_spec",
+            "tree": {
+                "sha": "b7dd0c542f9a35ab19c17130a53e0750ebeb785d",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/b7dd0c542f9a35ab19c17130a53e0750ebeb785d"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/09bb08aa12734d7f25680fb3d63ba523291c3a5b",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/09bb08aa12734d7f25680fb3d63ba523291c3a5b",
+        "html_url": "https://github.com/andymond/apicurious/commit/09bb08aa12734d7f25680fb3d63ba523291c3a5b",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/09bb08aa12734d7f25680fb3d63ba523291c3a5b/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "334763cec8e3b7c79ee472d27c7590e58a15de00",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/334763cec8e3b7c79ee472d27c7590e58a15de00",
+                "html_url": "https://github.com/andymond/apicurious/commit/334763cec8e3b7c79ee472d27c7590e58a15de00"
+            }
+        ]
+    },
+    {
+        "sha": "334763cec8e3b7c79ee472d27c7590e58a15de00",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T17:40:55Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T17:40:55Z"
+            },
+            "message": "Add vcr to rails_helper",
+            "tree": {
+                "sha": "5c42cf7f02a865598f018ca5f4535e8c3435e533",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/5c42cf7f02a865598f018ca5f4535e8c3435e533"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/334763cec8e3b7c79ee472d27c7590e58a15de00",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/334763cec8e3b7c79ee472d27c7590e58a15de00",
+        "html_url": "https://github.com/andymond/apicurious/commit/334763cec8e3b7c79ee472d27c7590e58a15de00",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/334763cec8e3b7c79ee472d27c7590e58a15de00/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8683a43e87abb1fe44334dc7b4f9d45556d77194",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/8683a43e87abb1fe44334dc7b4f9d45556d77194",
+                "html_url": "https://github.com/andymond/apicurious/commit/8683a43e87abb1fe44334dc7b4f9d45556d77194"
+            }
+        ]
+    },
+    {
+        "sha": "8683a43e87abb1fe44334dc7b4f9d45556d77194",
+        "commit": {
+            "author": {
+                "name": "Andy Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T17:21:25Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2018-03-22T17:21:25Z"
+            },
+            "message": "Merge pull request #5 from andymond/webmock-setup\n\nWebmock setup",
+            "tree": {
+                "sha": "59a321ce8f26d69f247ee249f6367e8cb9da9881",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/59a321ce8f26d69f247ee249f6367e8cb9da9881"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/8683a43e87abb1fe44334dc7b4f9d45556d77194",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJas+YVCRBK7hj4Ov3rIwAAdHIIACtXJEc4FVlILLy0Nq+N8p6Q\nOs6PplHZ06w4R0HEWEes4N/gyiZdIfQMtJmyx0Z0m+Nb1DToHcb+EXucQyNh4LLK\nshDOXEY6Z5ms2Yew/m8O127jisPvBA8Mby2LSVvqgq5bUV+WuUBfhVKBDHET2WEz\n4uF+nz756aCxyshKYhFkEQ/xO45LMwMgFYCEoDdsJDGiS3wsLIJAaf+HGFmM5I9I\n0ZxskI1VgQiLuqoMl6VAZtvzrF4elfumu8kWNobZhd8T+LpRq7vYOyVCf/z3bxCz\nKGMZyere+7FArRFT7O+2B/Zfe50DAswada36ztfhHRVYCPDdfcdwAdqRVyuLwe4=\n=leT1\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 59a321ce8f26d69f247ee249f6367e8cb9da9881\nparent 668544a110e5d3c9d7794483fb4aee281f3e46f4\nparent f967abe440f92a910593c65869f20bcaeff46ac5\nauthor Andy Dymond <andy.dymond@gmail.com> 1521739285 -0600\ncommitter GitHub <noreply@github.com> 1521739285 -0600\n\nMerge pull request #5 from andymond/webmock-setup\n\nWebmock setup"
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/8683a43e87abb1fe44334dc7b4f9d45556d77194",
+        "html_url": "https://github.com/andymond/apicurious/commit/8683a43e87abb1fe44334dc7b4f9d45556d77194",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/8683a43e87abb1fe44334dc7b4f9d45556d77194/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "668544a110e5d3c9d7794483fb4aee281f3e46f4",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/668544a110e5d3c9d7794483fb4aee281f3e46f4",
+                "html_url": "https://github.com/andymond/apicurious/commit/668544a110e5d3c9d7794483fb4aee281f3e46f4"
+            },
+            {
+                "sha": "f967abe440f92a910593c65869f20bcaeff46ac5",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/f967abe440f92a910593c65869f20bcaeff46ac5",
+                "html_url": "https://github.com/andymond/apicurious/commit/f967abe440f92a910593c65869f20bcaeff46ac5"
+            }
+        ]
+    },
+    {
+        "sha": "f967abe440f92a910593c65869f20bcaeff46ac5",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T17:19:11Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T17:19:11Z"
+            },
+            "message": "Refactor user_logs_in_with_github_spec to work with webmock",
+            "tree": {
+                "sha": "59a321ce8f26d69f247ee249f6367e8cb9da9881",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/59a321ce8f26d69f247ee249f6367e8cb9da9881"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/f967abe440f92a910593c65869f20bcaeff46ac5",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/f967abe440f92a910593c65869f20bcaeff46ac5",
+        "html_url": "https://github.com/andymond/apicurious/commit/f967abe440f92a910593c65869f20bcaeff46ac5",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/f967abe440f92a910593c65869f20bcaeff46ac5/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "89cf8a6c9f74679e4f87a56585e6a0baff933cba",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/89cf8a6c9f74679e4f87a56585e6a0baff933cba",
+                "html_url": "https://github.com/andymond/apicurious/commit/89cf8a6c9f74679e4f87a56585e6a0baff933cba"
+            }
+        ]
+    },
+    {
+        "sha": "89cf8a6c9f74679e4f87a56585e6a0baff933cba",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T16:58:19Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T16:58:19Z"
+            },
+            "message": "refactor user_can_view_basic_github_info_spec to work with webmock",
+            "tree": {
+                "sha": "462070b38be0d9273c4648578a3d54a999eb7cb0",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/462070b38be0d9273c4648578a3d54a999eb7cb0"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/89cf8a6c9f74679e4f87a56585e6a0baff933cba",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/89cf8a6c9f74679e4f87a56585e6a0baff933cba",
+        "html_url": "https://github.com/andymond/apicurious/commit/89cf8a6c9f74679e4f87a56585e6a0baff933cba",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/89cf8a6c9f74679e4f87a56585e6a0baff933cba/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "474b919ac6cc83e02d10932aade89346e6e8b84e",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/474b919ac6cc83e02d10932aade89346e6e8b84e",
+                "html_url": "https://github.com/andymond/apicurious/commit/474b919ac6cc83e02d10932aade89346e6e8b84e"
+            }
+        ]
+    },
+    {
+        "sha": "474b919ac6cc83e02d10932aade89346e6e8b84e",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T16:51:18Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T16:51:18Z"
+            },
+            "message": "Refactor user_can_view_repos_spec to work with webmock, add fixtures for user_info, starred_info, and repos_info",
+            "tree": {
+                "sha": "d76e5b7fc87f2eaa98f4ca7639a2cd9c39a970df",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/d76e5b7fc87f2eaa98f4ca7639a2cd9c39a970df"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/474b919ac6cc83e02d10932aade89346e6e8b84e",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/474b919ac6cc83e02d10932aade89346e6e8b84e",
+        "html_url": "https://github.com/andymond/apicurious/commit/474b919ac6cc83e02d10932aade89346e6e8b84e",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/474b919ac6cc83e02d10932aade89346e6e8b84e/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "558c6e4818ff1bc6b5b603aca8c2443186973cbd",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/558c6e4818ff1bc6b5b603aca8c2443186973cbd",
+                "html_url": "https://github.com/andymond/apicurious/commit/558c6e4818ff1bc6b5b603aca8c2443186973cbd"
+            }
+        ]
+    },
+    {
+        "sha": "558c6e4818ff1bc6b5b603aca8c2443186973cbd",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T16:26:00Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T16:26:00Z"
+            },
+            "message": "Add webmock & vcr to gemfile, add stub_get method to rails_helper",
+            "tree": {
+                "sha": "d3c4e87785bc30ec0643ccdbce16f297b9bb7aef",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/d3c4e87785bc30ec0643ccdbce16f297b9bb7aef"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/558c6e4818ff1bc6b5b603aca8c2443186973cbd",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/558c6e4818ff1bc6b5b603aca8c2443186973cbd",
+        "html_url": "https://github.com/andymond/apicurious/commit/558c6e4818ff1bc6b5b603aca8c2443186973cbd",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/558c6e4818ff1bc6b5b603aca8c2443186973cbd/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "668544a110e5d3c9d7794483fb4aee281f3e46f4",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/668544a110e5d3c9d7794483fb4aee281f3e46f4",
+                "html_url": "https://github.com/andymond/apicurious/commit/668544a110e5d3c9d7794483fb4aee281f3e46f4"
+            }
+        ]
+    },
+    {
+        "sha": "668544a110e5d3c9d7794483fb4aee281f3e46f4",
+        "commit": {
+            "author": {
+                "name": "Andy Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T16:13:19Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2018-03-22T16:13:19Z"
+            },
+            "message": "Merge pull request #4 from andymond/user-repos\n\nUser repos",
+            "tree": {
+                "sha": "0291b60a583f10916977736f8cd1a11a36e2fad8",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/0291b60a583f10916977736f8cd1a11a36e2fad8"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/668544a110e5d3c9d7794483fb4aee281f3e46f4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJas9YfCRBK7hj4Ov3rIwAAdHIIAH/9zeltSeeB8EhdZHl5QQgq\nKcW+s98JlF1qMabk2+rbDQYZBedZ5Zp8jv30mHjQFzophs2fwe7fJ8mefAax+dCv\nGkGYZc7cEbgkl/dDM57S/IDvdhSuy8ktvHI+cFcfjivSQe+HrjL5XIdHuZS10EjO\npI44KZcN9HYnjfqSlqBIJuc77b3FDcOqbcx5A7dTs04tgv71fgJiYQqmKCIECKMb\ni9dq2+onJwBt2Yhhg+vQdQltFEXTEGr1NH1OWKdrXQNG243c3zjSkaU5ZEfCM+fP\nc5hRyjmoW0KWYk+70v2fPEOCjjD2J8Gfb9A2DaM8HZcRQOTeQv7+A1GAxmUXAxM=\n=Y5SS\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 0291b60a583f10916977736f8cd1a11a36e2fad8\nparent 09389fe091f8f9884146abf1f4f22584d8c08238\nparent e72bd45551b27d783ce70ee6f07eba627882e24f\nauthor Andy Dymond <andy.dymond@gmail.com> 1521735199 -0600\ncommitter GitHub <noreply@github.com> 1521735199 -0600\n\nMerge pull request #4 from andymond/user-repos\n\nUser repos"
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/668544a110e5d3c9d7794483fb4aee281f3e46f4",
+        "html_url": "https://github.com/andymond/apicurious/commit/668544a110e5d3c9d7794483fb4aee281f3e46f4",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/668544a110e5d3c9d7794483fb4aee281f3e46f4/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "09389fe091f8f9884146abf1f4f22584d8c08238",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/09389fe091f8f9884146abf1f4f22584d8c08238",
+                "html_url": "https://github.com/andymond/apicurious/commit/09389fe091f8f9884146abf1f4f22584d8c08238"
+            },
+            {
+                "sha": "e72bd45551b27d783ce70ee6f07eba627882e24f",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/e72bd45551b27d783ce70ee6f07eba627882e24f",
+                "html_url": "https://github.com/andymond/apicurious/commit/e72bd45551b27d783ce70ee6f07eba627882e24f"
+            }
+        ]
+    },
+    {
+        "sha": "e72bd45551b27d783ce70ee6f07eba627882e24f",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T16:10:23Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T16:10:23Z"
+            },
+            "message": "Add logout styling",
+            "tree": {
+                "sha": "0291b60a583f10916977736f8cd1a11a36e2fad8",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/0291b60a583f10916977736f8cd1a11a36e2fad8"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/e72bd45551b27d783ce70ee6f07eba627882e24f",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/e72bd45551b27d783ce70ee6f07eba627882e24f",
+        "html_url": "https://github.com/andymond/apicurious/commit/e72bd45551b27d783ce70ee6f07eba627882e24f",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/e72bd45551b27d783ce70ee6f07eba627882e24f/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6997f6401ee6926125041613d4be23e44f26bbce",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/6997f6401ee6926125041613d4be23e44f26bbce",
+                "html_url": "https://github.com/andymond/apicurious/commit/6997f6401ee6926125041613d4be23e44f26bbce"
+            }
+        ]
+    },
+    {
+        "sha": "6997f6401ee6926125041613d4be23e44f26bbce",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T14:48:40Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T14:48:40Z"
+            },
+            "message": "Add rough repository pagination strategy",
+            "tree": {
+                "sha": "4c8bf017e639b891dab95f7944ddc7345cb9a18a",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/4c8bf017e639b891dab95f7944ddc7345cb9a18a"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/6997f6401ee6926125041613d4be23e44f26bbce",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/6997f6401ee6926125041613d4be23e44f26bbce",
+        "html_url": "https://github.com/andymond/apicurious/commit/6997f6401ee6926125041613d4be23e44f26bbce",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/6997f6401ee6926125041613d4be23e44f26bbce/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "bf36cd7876a763fc882ce16bf5de5103759e8b95",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/bf36cd7876a763fc882ce16bf5de5103759e8b95",
+                "html_url": "https://github.com/andymond/apicurious/commit/bf36cd7876a763fc882ce16bf5de5103759e8b95"
+            }
+        ]
+    },
+    {
+        "sha": "bf36cd7876a763fc882ce16bf5de5103759e8b95",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T14:45:00Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T14:45:00Z"
+            },
+            "message": "Move get json from services to helper module",
+            "tree": {
+                "sha": "36891f94f94513dbc17d923b8123592a861216b1",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/36891f94f94513dbc17d923b8123592a861216b1"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/bf36cd7876a763fc882ce16bf5de5103759e8b95",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/bf36cd7876a763fc882ce16bf5de5103759e8b95",
+        "html_url": "https://github.com/andymond/apicurious/commit/bf36cd7876a763fc882ce16bf5de5103759e8b95",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/bf36cd7876a763fc882ce16bf5de5103759e8b95/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0df5688e2d2ff23ed27bcd8bc7126029bee4050c",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/0df5688e2d2ff23ed27bcd8bc7126029bee4050c",
+                "html_url": "https://github.com/andymond/apicurious/commit/0df5688e2d2ff23ed27bcd8bc7126029bee4050c"
+            }
+        ]
+    },
+    {
+        "sha": "0df5688e2d2ff23ed27bcd8bc7126029bee4050c",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T01:38:15Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T01:38:15Z"
+            },
+            "message": "Add github_repo_service & service_helpers module",
+            "tree": {
+                "sha": "5297952b6d595d3c633cfeb9bc9f268f64e0545c",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/5297952b6d595d3c633cfeb9bc9f268f64e0545c"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/0df5688e2d2ff23ed27bcd8bc7126029bee4050c",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/0df5688e2d2ff23ed27bcd8bc7126029bee4050c",
+        "html_url": "https://github.com/andymond/apicurious/commit/0df5688e2d2ff23ed27bcd8bc7126029bee4050c",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/0df5688e2d2ff23ed27bcd8bc7126029bee4050c/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "3de9d41df7014efb1e0f61748ec0a4b467575f98",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/3de9d41df7014efb1e0f61748ec0a4b467575f98",
+                "html_url": "https://github.com/andymond/apicurious/commit/3de9d41df7014efb1e0f61748ec0a4b467575f98"
+            }
+        ]
+    },
+    {
+        "sha": "3de9d41df7014efb1e0f61748ec0a4b467575f98",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T01:27:51Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T01:27:51Z"
+            },
+            "message": "Add repositories controller and view and GithubService#user_repos to display 1st 30 repo names",
+            "tree": {
+                "sha": "4f4e3e2e20603ee6c9c485bdd33de51ec6af2fcf",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/4f4e3e2e20603ee6c9c485bdd33de51ec6af2fcf"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/3de9d41df7014efb1e0f61748ec0a4b467575f98",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/3de9d41df7014efb1e0f61748ec0a4b467575f98",
+        "html_url": "https://github.com/andymond/apicurious/commit/3de9d41df7014efb1e0f61748ec0a4b467575f98",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/3de9d41df7014efb1e0f61748ec0a4b467575f98/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1ff27d4a84dcfe94bb5fa5d5d28719aa132f56ef",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/1ff27d4a84dcfe94bb5fa5d5d28719aa132f56ef",
+                "html_url": "https://github.com/andymond/apicurious/commit/1ff27d4a84dcfe94bb5fa5d5d28719aa132f56ef"
+            }
+        ]
+    },
+    {
+        "sha": "1ff27d4a84dcfe94bb5fa5d5d28719aa132f56ef",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T00:37:31Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T00:37:31Z"
+            },
+            "message": "Add repositories_controller",
+            "tree": {
+                "sha": "950b72190e59f8cf76b301e23805e17f30a637c9",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/950b72190e59f8cf76b301e23805e17f30a637c9"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/1ff27d4a84dcfe94bb5fa5d5d28719aa132f56ef",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/1ff27d4a84dcfe94bb5fa5d5d28719aa132f56ef",
+        "html_url": "https://github.com/andymond/apicurious/commit/1ff27d4a84dcfe94bb5fa5d5d28719aa132f56ef",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/1ff27d4a84dcfe94bb5fa5d5d28719aa132f56ef/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d3c22d54054783d6baebabcac8bd29b478ecd86a",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/d3c22d54054783d6baebabcac8bd29b478ecd86a",
+                "html_url": "https://github.com/andymond/apicurious/commit/d3c22d54054783d6baebabcac8bd29b478ecd86a"
+            }
+        ]
+    },
+    {
+        "sha": "d3c22d54054783d6baebabcac8bd29b478ecd86a",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T00:35:41Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T00:35:41Z"
+            },
+            "message": "Add /repositories route",
+            "tree": {
+                "sha": "80b082c59fdc9a586553205210905658c2193ebe",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/80b082c59fdc9a586553205210905658c2193ebe"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/d3c22d54054783d6baebabcac8bd29b478ecd86a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/d3c22d54054783d6baebabcac8bd29b478ecd86a",
+        "html_url": "https://github.com/andymond/apicurious/commit/d3c22d54054783d6baebabcac8bd29b478ecd86a",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/d3c22d54054783d6baebabcac8bd29b478ecd86a/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "407300ea8118476118afa80889cfb27267664816",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/407300ea8118476118afa80889cfb27267664816",
+                "html_url": "https://github.com/andymond/apicurious/commit/407300ea8118476118afa80889cfb27267664816"
+            }
+        ]
+    },
+    {
+        "sha": "407300ea8118476118afa80889cfb27267664816",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T00:07:57Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T00:07:57Z"
+            },
+            "message": "Add GithubService#user_repos",
+            "tree": {
+                "sha": "22336491c600d3e6a09ab211480ec9e672866d98",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/22336491c600d3e6a09ab211480ec9e672866d98"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/407300ea8118476118afa80889cfb27267664816",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/407300ea8118476118afa80889cfb27267664816",
+        "html_url": "https://github.com/andymond/apicurious/commit/407300ea8118476118afa80889cfb27267664816",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/407300ea8118476118afa80889cfb27267664816/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "58b21472e97425129120d9c6406a637fb39fa7ad",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/58b21472e97425129120d9c6406a637fb39fa7ad",
+                "html_url": "https://github.com/andymond/apicurious/commit/58b21472e97425129120d9c6406a637fb39fa7ad"
+            }
+        ]
+    },
+    {
+        "sha": "58b21472e97425129120d9c6406a637fb39fa7ad",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T00:04:52Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-22T00:04:52Z"
+            },
+            "message": "Add user_can_view_repositories_spec",
+            "tree": {
+                "sha": "6f3ec62c832dd566caaeba2e07b95511b620d729",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/6f3ec62c832dd566caaeba2e07b95511b620d729"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/58b21472e97425129120d9c6406a637fb39fa7ad",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/58b21472e97425129120d9c6406a637fb39fa7ad",
+        "html_url": "https://github.com/andymond/apicurious/commit/58b21472e97425129120d9c6406a637fb39fa7ad",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/58b21472e97425129120d9c6406a637fb39fa7ad/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "09389fe091f8f9884146abf1f4f22584d8c08238",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/09389fe091f8f9884146abf1f4f22584d8c08238",
+                "html_url": "https://github.com/andymond/apicurious/commit/09389fe091f8f9884146abf1f4f22584d8c08238"
+            }
+        ]
+    },
+    {
+        "sha": "09389fe091f8f9884146abf1f4f22584d8c08238",
+        "commit": {
+            "author": {
+                "name": "Andy Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T23:28:57Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2018-03-21T23:28:57Z"
+            },
+            "message": "Merge pull request #3 from andymond/styling-2\n\nStyling 2",
+            "tree": {
+                "sha": "a6161e8d67e735c8a9ba841869fb2969b4ea559b",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/a6161e8d67e735c8a9ba841869fb2969b4ea559b"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/09389fe091f8f9884146abf1f4f22584d8c08238",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJasuq5CRBK7hj4Ov3rIwAAdHIIAC2lYLkWwSYJpdZjHzJAf7ue\nFPjJ4KasOjuczCZKBHSE2O6/bTaxAKhiSzxQTvJLEShNL6F0jPx753R12EDp9iGM\nMTTxszhSyAufiiiv2iSHkMH8SdiZGgZqTqRqkAdRM8aswKDynmAbCNpT6W7/kKr2\n4jh5il/dJragNrZorHE8z4BQhIhCOOHIEjH3w6pfjuZu287oNErnpWOSZu4nBTm7\nRyQuQnmixcVdIHYN6/AxgzGJhLwf0/Pghw0uEvGENPUREF8YrX7RLeiMpA8zr+3r\nq6gIbGEooeaQyfu1Y2SkMtLs56Ebr/1qRDtQZ4uR6lc6WqG823V1rMeILVZ/s44=\n=Nnor\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree a6161e8d67e735c8a9ba841869fb2969b4ea559b\nparent 2adc1c5d0e3a2b454a741c3572affddb8974ec62\nparent 2139bf92f4dfdb79689f7c182b9758241d375636\nauthor Andy Dymond <andy.dymond@gmail.com> 1521674937 -0600\ncommitter GitHub <noreply@github.com> 1521674937 -0600\n\nMerge pull request #3 from andymond/styling-2\n\nStyling 2"
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/09389fe091f8f9884146abf1f4f22584d8c08238",
+        "html_url": "https://github.com/andymond/apicurious/commit/09389fe091f8f9884146abf1f4f22584d8c08238",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/09389fe091f8f9884146abf1f4f22584d8c08238/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2adc1c5d0e3a2b454a741c3572affddb8974ec62",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/2adc1c5d0e3a2b454a741c3572affddb8974ec62",
+                "html_url": "https://github.com/andymond/apicurious/commit/2adc1c5d0e3a2b454a741c3572affddb8974ec62"
+            },
+            {
+                "sha": "2139bf92f4dfdb79689f7c182b9758241d375636",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/2139bf92f4dfdb79689f7c182b9758241d375636",
+                "html_url": "https://github.com/andymond/apicurious/commit/2139bf92f4dfdb79689f7c182b9758241d375636"
+            }
+        ]
+    },
+    {
+        "sha": "2139bf92f4dfdb79689f7c182b9758241d375636",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T23:27:42Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T23:27:42Z"
+            },
+            "message": "Refactor github_user methods",
+            "tree": {
+                "sha": "a6161e8d67e735c8a9ba841869fb2969b4ea559b",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/a6161e8d67e735c8a9ba841869fb2969b4ea559b"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/2139bf92f4dfdb79689f7c182b9758241d375636",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/2139bf92f4dfdb79689f7c182b9758241d375636",
+        "html_url": "https://github.com/andymond/apicurious/commit/2139bf92f4dfdb79689f7c182b9758241d375636",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/2139bf92f4dfdb79689f7c182b9758241d375636/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "55eb1e2ad2e92e82162dfde49f002778101b1e69",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/55eb1e2ad2e92e82162dfde49f002778101b1e69",
+                "html_url": "https://github.com/andymond/apicurious/commit/55eb1e2ad2e92e82162dfde49f002778101b1e69"
+            }
+        ]
+    },
+    {
+        "sha": "55eb1e2ad2e92e82162dfde49f002778101b1e69",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T20:33:18Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T20:33:18Z"
+            },
+            "message": "Refactor github_user model & controller so controller doesn't call service",
+            "tree": {
+                "sha": "240aea4f6b4a7ed262b24cd5add3bab1964b6e42",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/240aea4f6b4a7ed262b24cd5add3bab1964b6e42"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/55eb1e2ad2e92e82162dfde49f002778101b1e69",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/55eb1e2ad2e92e82162dfde49f002778101b1e69",
+        "html_url": "https://github.com/andymond/apicurious/commit/55eb1e2ad2e92e82162dfde49f002778101b1e69",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/55eb1e2ad2e92e82162dfde49f002778101b1e69/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2adc1c5d0e3a2b454a741c3572affddb8974ec62",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/2adc1c5d0e3a2b454a741c3572affddb8974ec62",
+                "html_url": "https://github.com/andymond/apicurious/commit/2adc1c5d0e3a2b454a741c3572affddb8974ec62"
+            }
+        ]
+    },
+    {
+        "sha": "2adc1c5d0e3a2b454a741c3572affddb8974ec62",
+        "commit": {
+            "author": {
+                "name": "Andy Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T20:15:26Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2018-03-21T20:15:26Z"
+            },
+            "message": "Merge pull request #2 from andymond/api-setup\n\nApi setup",
+            "tree": {
+                "sha": "44b4d3699c03eec6720904b6e3760ddcdc104402",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/44b4d3699c03eec6720904b6e3760ddcdc104402"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/2adc1c5d0e3a2b454a741c3572affddb8974ec62",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJasr1eCRBK7hj4Ov3rIwAAdHIIAHvjRiKhwESZFCvX8Tpikwgf\nfXA8Apg6uMAjsrfrESZUKxDOcuAWMidkMDYHbjnlt5E0pHwzT7rpTwYAKq+ZaqxJ\nzRMkFd8Y+eG9bVvou7ERkWyoSN9x9knBPpO3eDeb3YN4U4FfgIDJ8QOOLoy5dYnL\nXd/ZBmAZev79tVRf5yRhmgOWEUTplYtkVuAyiAxVni1/8l+xL8ZqWHuzvBGunKpA\nayyNTAITj4LyVJSYY6GR70hr+XesERbUPz9qEUQq4zEh6K2GohKXqmvxdr8D2keo\nnztD7LXUOIbWac8ST1fBVG0vPacMYdNHPkzhcsNu5fwtIC7HsAD/opEMFix24I4=\n=a9Pg\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 44b4d3699c03eec6720904b6e3760ddcdc104402\nparent 83aaf1af15343944723eaebd3678d1b8794c86e9\nparent 2cbb96dd83289161d854d027e5bc62ee3e37a86a\nauthor Andy Dymond <andy.dymond@gmail.com> 1521663326 -0600\ncommitter GitHub <noreply@github.com> 1521663326 -0600\n\nMerge pull request #2 from andymond/api-setup\n\nApi setup"
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/2adc1c5d0e3a2b454a741c3572affddb8974ec62",
+        "html_url": "https://github.com/andymond/apicurious/commit/2adc1c5d0e3a2b454a741c3572affddb8974ec62",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/2adc1c5d0e3a2b454a741c3572affddb8974ec62/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "83aaf1af15343944723eaebd3678d1b8794c86e9",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/83aaf1af15343944723eaebd3678d1b8794c86e9",
+                "html_url": "https://github.com/andymond/apicurious/commit/83aaf1af15343944723eaebd3678d1b8794c86e9"
+            },
+            {
+                "sha": "2cbb96dd83289161d854d027e5bc62ee3e37a86a",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/2cbb96dd83289161d854d027e5bc62ee3e37a86a",
+                "html_url": "https://github.com/andymond/apicurious/commit/2cbb96dd83289161d854d027e5bc62ee3e37a86a"
+            }
+        ]
+    },
+    {
+        "sha": "2cbb96dd83289161d854d027e5bc62ee3e37a86a",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T20:09:46Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T20:09:46Z"
+            },
+            "message": "Tweak margins and colors on styling",
+            "tree": {
+                "sha": "44b4d3699c03eec6720904b6e3760ddcdc104402",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/44b4d3699c03eec6720904b6e3760ddcdc104402"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/2cbb96dd83289161d854d027e5bc62ee3e37a86a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/2cbb96dd83289161d854d027e5bc62ee3e37a86a",
+        "html_url": "https://github.com/andymond/apicurious/commit/2cbb96dd83289161d854d027e5bc62ee3e37a86a",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/2cbb96dd83289161d854d027e5bc62ee3e37a86a/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5634003109bfa040552572f6dcf59d7d7d9b1615",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/5634003109bfa040552572f6dcf59d7d7d9b1615",
+                "html_url": "https://github.com/andymond/apicurious/commit/5634003109bfa040552572f6dcf59d7d7d9b1615"
+            }
+        ]
+    },
+    {
+        "sha": "5634003109bfa040552572f6dcf59d7d7d9b1615",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T02:01:57Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T02:01:57Z"
+            },
+            "message": "Refactor controller HTTP requests into GithubService",
+            "tree": {
+                "sha": "902f6164f271fdb828e10e6f8487e7b2525a8a00",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/902f6164f271fdb828e10e6f8487e7b2525a8a00"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/5634003109bfa040552572f6dcf59d7d7d9b1615",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/5634003109bfa040552572f6dcf59d7d7d9b1615",
+        "html_url": "https://github.com/andymond/apicurious/commit/5634003109bfa040552572f6dcf59d7d7d9b1615",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/5634003109bfa040552572f6dcf59d7d7d9b1615/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "db5a6bdf097e478321dca327342204ad8cca5c54",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/db5a6bdf097e478321dca327342204ad8cca5c54",
+                "html_url": "https://github.com/andymond/apicurious/commit/db5a6bdf097e478321dca327342204ad8cca5c54"
+            }
+        ]
+    },
+    {
+        "sha": "db5a6bdf097e478321dca327342204ad8cca5c54",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T01:43:29Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T01:43:29Z"
+            },
+            "message": "Add @user attributes to dashboard/index, add stars to controller and github_user model",
+            "tree": {
+                "sha": "05e816216632bc77264b1086a69dc80cd943e8e7",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/05e816216632bc77264b1086a69dc80cd943e8e7"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/db5a6bdf097e478321dca327342204ad8cca5c54",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/db5a6bdf097e478321dca327342204ad8cca5c54",
+        "html_url": "https://github.com/andymond/apicurious/commit/db5a6bdf097e478321dca327342204ad8cca5c54",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/db5a6bdf097e478321dca327342204ad8cca5c54/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "37e4ec1deaa1b067f22d9958209f566e0def6284",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/37e4ec1deaa1b067f22d9958209f566e0def6284",
+                "html_url": "https://github.com/andymond/apicurious/commit/37e4ec1deaa1b067f22d9958209f566e0def6284"
+            }
+        ]
+    },
+    {
+        "sha": "37e4ec1deaa1b067f22d9958209f566e0def6284",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T01:20:53Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T01:20:53Z"
+            },
+            "message": "Add guard for nil image_urls",
+            "tree": {
+                "sha": "8fd7eaf2ceb57ceb8d2794eba19b822a28657284",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/8fd7eaf2ceb57ceb8d2794eba19b822a28657284"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/37e4ec1deaa1b067f22d9958209f566e0def6284",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/37e4ec1deaa1b067f22d9958209f566e0def6284",
+        "html_url": "https://github.com/andymond/apicurious/commit/37e4ec1deaa1b067f22d9958209f566e0def6284",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/37e4ec1deaa1b067f22d9958209f566e0def6284/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4717ba681bcc7370bedeb24c1013d2dbfc0b6bfb",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/4717ba681bcc7370bedeb24c1013d2dbfc0b6bfb",
+                "html_url": "https://github.com/andymond/apicurious/commit/4717ba681bcc7370bedeb24c1013d2dbfc0b6bfb"
+            }
+        ]
+    },
+    {
+        "sha": "4717ba681bcc7370bedeb24c1013d2dbfc0b6bfb",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T01:20:20Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T01:20:20Z"
+            },
+            "message": "Add GithubUser to parse api response into ruby object",
+            "tree": {
+                "sha": "dd4ddd0b6907f8d2fa40bfcc9a433249e8cec452",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/dd4ddd0b6907f8d2fa40bfcc9a433249e8cec452"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/4717ba681bcc7370bedeb24c1013d2dbfc0b6bfb",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/4717ba681bcc7370bedeb24c1013d2dbfc0b6bfb",
+        "html_url": "https://github.com/andymond/apicurious/commit/4717ba681bcc7370bedeb24c1013d2dbfc0b6bfb",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/4717ba681bcc7370bedeb24c1013d2dbfc0b6bfb/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b1bf61d6e7e77097093980ba04fb26856eb4dd2d",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/b1bf61d6e7e77097093980ba04fb26856eb4dd2d",
+                "html_url": "https://github.com/andymond/apicurious/commit/b1bf61d6e7e77097093980ba04fb26856eb4dd2d"
+            }
+        ]
+    },
+    {
+        "sha": "b1bf61d6e7e77097093980ba04fb26856eb4dd2d",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T01:18:17Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T01:18:17Z"
+            },
+            "message": "Add GithubUser & api call to dashboard_controller",
+            "tree": {
+                "sha": "5e5ef3ef702ae25c3383e461ce768902a1cbd216",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/5e5ef3ef702ae25c3383e461ce768902a1cbd216"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/b1bf61d6e7e77097093980ba04fb26856eb4dd2d",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/b1bf61d6e7e77097093980ba04fb26856eb4dd2d",
+        "html_url": "https://github.com/andymond/apicurious/commit/b1bf61d6e7e77097093980ba04fb26856eb4dd2d",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/b1bf61d6e7e77097093980ba04fb26856eb4dd2d/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5398f85d7689563fc9ca743366b669f766eb5b69",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/5398f85d7689563fc9ca743366b669f766eb5b69",
+                "html_url": "https://github.com/andymond/apicurious/commit/5398f85d7689563fc9ca743366b669f766eb5b69"
+            }
+        ]
+    },
+    {
+        "sha": "5398f85d7689563fc9ca743366b669f766eb5b69",
+        "commit": {
+            "author": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T01:17:32Z"
+            },
+            "committer": {
+                "name": "Andrew Dymond",
+                "email": "andy.dymond@gmail.com",
+                "date": "2018-03-21T01:17:32Z"
+            },
+            "message": "Modify specs to fit github formatting",
+            "tree": {
+                "sha": "b6b723a5230bc93556066425a5286309e1b82ad4",
+                "url": "https://api.github.com/repos/andymond/apicurious/git/trees/b6b723a5230bc93556066425a5286309e1b82ad4"
+            },
+            "url": "https://api.github.com/repos/andymond/apicurious/git/commits/5398f85d7689563fc9ca743366b669f766eb5b69",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/andymond/apicurious/commits/5398f85d7689563fc9ca743366b669f766eb5b69",
+        "html_url": "https://github.com/andymond/apicurious/commit/5398f85d7689563fc9ca743366b669f766eb5b69",
+        "comments_url": "https://api.github.com/repos/andymond/apicurious/commits/5398f85d7689563fc9ca743366b669f766eb5b69/comments",
+        "author": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "andymond",
+            "id": 30162156,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/30162156?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andymond",
+            "html_url": "https://github.com/andymond",
+            "followers_url": "https://api.github.com/users/andymond/followers",
+            "following_url": "https://api.github.com/users/andymond/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andymond/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andymond/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andymond/subscriptions",
+            "organizations_url": "https://api.github.com/users/andymond/orgs",
+            "repos_url": "https://api.github.com/users/andymond/repos",
+            "events_url": "https://api.github.com/users/andymond/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andymond/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5c6a8b07876ad8f02dcbcb3368ecbf734b2a8c1a",
+                "url": "https://api.github.com/repos/andymond/apicurious/commits/5c6a8b07876ad8f02dcbcb3368ecbf734b2a8c1a",
+                "html_url": "https://github.com/andymond/apicurious/commit/5c6a8b07876ad8f02dcbcb3368ecbf734b2a8c1a"
+            }
+        ]
+    }
+]

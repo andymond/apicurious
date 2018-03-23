@@ -1,0 +1,17 @@
+<div class="recent-activity flex flex-column items-end">
+  <div>Contribution Activity</div>
+ <div><%= @user.events.first.month %></div>
+ <% @user.commits_by_repo.each do |r, c| %>
+   <div>
+     Created <%= c %> commits in <%= r %>
+   </div>
+ <% end %>
+
+ <% @user.events.each do |event| %>
+     <% event.commits.each do |commit| %>
+     <div class="event-commits">
+       <%= commit[:message] %>
+     </div>
+     <% end %>
+ <% end %>
+</div>

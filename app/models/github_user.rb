@@ -37,6 +37,21 @@ class GithubUser
     end
   end
 
+  def events
+    events ||= GithubEventService.new(user).user_events.map do |event|
+      Event.new(user, event) if event[:payload].has_key?(:commits)
+    end.compact
+  end
+
+  def commits_by_repo
+    events_by_repo = events.group_by { |event| event.repo }
+    events_by_repo.transform_values do |event_array|
+      event_array.reduce(0) do |memo, event|
+        memo += event.commit_count
+      end
+    end
+  end
+
   private
     attr_reader :attributes, :gh_service, :user
 

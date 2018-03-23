@@ -2,12 +2,13 @@ require "rails_helper"
 
 feature "user visits dashboard" do
   it "displays github profile info from api" do
-    user = User.create(oauth_token: ENV['GITHUB_ACCESS_TOKEN'])
+    user = User.create(oauth_token: ENV['GITHUB_ACCESS_TOKEN'], nickname: "andymond")
     user_url = "https://api.github.com/user?access_token=#{user.oauth_token}"
     starred_url = "https://api.github.com/user/starred?access_token=#{user.oauth_token}"
-
+    event_url = "https://api.github.com/users/#{user.nickname}/events?access_token=#{user.oauth_token}"
     stub_get("user_info.json", user_url)
     stub_get("starred_info.json", starred_url)
+    stub_get("event_info.json", event_url)
 
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 
