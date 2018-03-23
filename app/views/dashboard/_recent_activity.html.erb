@@ -1,5 +1,9 @@
-<div class="recent activity">
- Contribution Activity
- <%= @user.events.first.month %>
- Created <%= @user.commits_by_repo.values.first %> commits in <%= @user.commits_by_repo.keys.first %>
+<div class="recent-activity flex flex-column items-end">
+  <div>Contribution Activity</div>
+ <div><%= @user.events.first.month %></div>
+ <% @user.commits_by_repo.each do |r, c| %>
+   <div>
+     Created <%= c %> commits in <%= r %>
+   </div>
+ <% end %>
 </div>
