@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simplified version of the GitHub's existing UI using their own API.
 
-Things you may want to cover:
+## Stack
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Rails 5.1.8
+* GitHub OAuth
+* GitHub API
+* Tested with RSpec, Webmock & VCR
